@@ -11,6 +11,7 @@ mod day05;
 mod day06;
 mod day07;
 mod day08;
+mod day09;
 
 fn main() {
     println!("Welcome to Advent of Code 2021!");
@@ -55,6 +56,10 @@ fn run_all() {
     day08::day08::part1();
     println!("day08-part2:");
     day08::day08::part2();
+    println!("day09-part1:");
+    day09::day09::part1();
+    println!("day09-part2:");
+    day09::day09::part2();
 }
 
 fn gen() {
